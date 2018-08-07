@@ -1,0 +1,11 @@
+package com.shrinath.mvc;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.bind.annotation.RequestMapping;
+@ComponentScan("com.shrinath.springdemo.mvc")
+public class HomeController {
+	@RequestMapping("/")
+	public String show() {
+		return "main-menu";
+	}
+}

@@ -1,0 +1,5 @@
+package com.shrinath.springdemo.mvc;
+
+public class StudentController {
+
+}

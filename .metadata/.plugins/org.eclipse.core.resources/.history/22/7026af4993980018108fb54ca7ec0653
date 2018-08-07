@@ -1,0 +1,5 @@
+package com.shrinath.mvc;
+
+public class CustomerController {
+
+}

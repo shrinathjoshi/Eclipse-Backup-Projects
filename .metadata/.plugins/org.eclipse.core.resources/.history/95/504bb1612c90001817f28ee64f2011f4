@@ -1,0 +1,5 @@
+package com.shrinath.springdemo;
+
+public class SportConfig {
+
+}

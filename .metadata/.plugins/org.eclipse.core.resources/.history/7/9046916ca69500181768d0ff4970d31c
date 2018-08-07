@@ -1,0 +1,6 @@
+package com.shrinath.mvc;
+
+@Controller
+public class HelloWorldController {
+
+}

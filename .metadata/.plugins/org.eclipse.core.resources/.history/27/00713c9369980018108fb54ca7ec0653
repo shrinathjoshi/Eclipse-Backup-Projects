@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="mvc" uri="http://www.springframework.org/tags/form"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Student Regestration</title>
+</head>
+<body>
+
+	<mvc:form action="processForm" modelAttribute="student">
+	
+	First Name: <mvc:input path="firstName"/>
+	<br>
+	<br>
+	Last Name: <mvc:input path="lastName"/>
+	<br><br>
+	
+	Country:
+	<mvc:select path="country">
+		<mvc:option value="Brazil" label="Brazil"></mvc:option>
+		<mvc:option value="India" label="India"></mvc:option>
+		<mvc:option value="France" label="France"></mvc:option>
+		<mvc:option value="Germany" label="Gremany"></mvc:option>
+	
+	</mvc:select>
+	
+	<input type="submit" value="Submit" />
+	
+	</mvc:form>
+
+
+
+</body>
+</html>
